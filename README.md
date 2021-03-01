@@ -6,6 +6,10 @@
 </p>
 <p align="center">
   <a href="https://wa.me/+916006511429"><img title="Whatsapp" src="https://simpleicons.org/icons/whatsapp.svg" width="50" height="50"></a>
+  <a href="#"><img title="Instagram" src="https://simpleicons.org/icons/instagram.svg" width="50" height="50"></a>
+  <a href="#"><img title="Telegram Group" src="https://simpleicons.org/icons/telegram.svg" width="50" height="50"></a>
+  <a href="#"><img title="LinkedIn" src="https://simpleicons.org/icons/linkedin.svg" width="50" height="50"></a>
+  <a href="#"><img title="Youtube" src="https://simpleicons.org/icons/youtube.svg" width="50" height="50"></a>
 </p>
 <p align="center">
 <a href="https://github.com/hakxcore"><img title="Author" src="https://img.shields.io/badge/Author-mukesh%20kumar-red.svg?style=for-the-badge&logo=github"></a>
