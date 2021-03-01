@@ -112,7 +112,7 @@ read choice1
 	12)
 		echo "\e[1;43mSure my Majesty!\e[0m"| pv -qL 10
 		sleep 2s
-		cd && cd Downloads && mpv 146473437_915563895939539_3147535564555577313_n.mp4 
+		cd media; mpv * 
 		cd
 		clear
 	    timepass
