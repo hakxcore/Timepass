@@ -188,7 +188,8 @@ read choice1
 		timepass
 		;;
 	21)
-		./hacking_zone.sh
+		cd hacking_zone
+		sh hacking_zone.sh
 		;;
 	99)
 	    echo "Thankyou..."

