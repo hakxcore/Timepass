@@ -1,6 +1,7 @@
-#Created by Mukesh Kumar
-#All the credits should be given to Mr.Mukesh Kumar.
-#He is Hacker Pentester Bug Hunter and Especially An IT Engineer
+##Created by Mukesh Kumar
+##All the credits should be given to Mr.Mukesh Kumar.
+##He is Hacker Pentester Bug Hunter and Especially An IT Engineer
+##This code is written only for fun purposes.
 #!/bin/bash
 python3 banner.py
 sleep 1;
@@ -26,28 +27,28 @@ read choice1
 		sleep 2s
 		pacman4console
 		clear
-		timepass
+		sh timepass.sh
 		;;
 	2)
 		echo "\e[1;43mSure my Majesty!\e[0m"| pv -qL 10
 		sleep 2s
 		moon-buggy
 		clear
-		timepass
+		sh timepass.sh
 		;;
 	3)
 		echo "\e[1;43mSure my Majesty!\e[0m"| pv -qL 10
 		sleep 2s
 		cmatrix
 		clear
-		timepass
+		sh timepass.sh
 		;;
 	4)
 		echo "\e[1;43mSure my Majesty!\e[0m"| pv -qL 10
 		sleep 2s
 		xeyes
 		clear
-	    timepass
+	    sh timepass.sh
 		;;
 	5)
 		echo "\e[1;43mSure my Majesty!\e[0m"| pv -qL 10
@@ -57,14 +58,14 @@ read choice1
 		cowsay $s
 		sleep 3s
 		clear
-		timepass
+		sh timepass.sh
 		;;
 	6)
 		echo "\e[1;43mSure my Majesty!\e[0m"| pv -qL 10
 		sleep 2s
 		telnet towel.blinkenlights.nl
 		clear
-		timepass
+		sh timepass.sh
 		;;
 	7)
 		echo "\e[1;43mSure my Majesty!\e[0m"| pv -qL 10
@@ -73,7 +74,7 @@ read choice1
 		read a
 		xcowsay $a
 		clear
-		timepass
+		sh timepass.sh
 		;;
 	8)
 		echo "\e[1;43mSure my Majesty!\e[0m"| pv -qL 10
@@ -82,7 +83,7 @@ read choice1
 		read b
 		xcowthink $b
 		clear
-		timepass
+		sh timepass.sh
 		;;
 	9)
 		echo "\e[1;43mSure my Majesty!\e[0m"| pv -qL 10
@@ -91,13 +92,13 @@ read choice1
 		sleep 1s
 		oneko
 		clear
-		timepass
+		sh timepass.sh
 		;;
 	10)
 		echo "\e[1;43mSure my Majesty!\e[0m"| pv -qL 10
 		sleep 2s
 		fortune
-		timepass
+		sh timepass.sh
 		;;
 
 	11)
@@ -107,7 +108,7 @@ read choice1
 		sleep 12s
 		cd && cd Music && mpv In\ The\ End\ -\ 1\ Hour\ Loop\ -\ By\ Linkin\ Park\ \(Mellen\ Gi\ \&\ Tommee\ Profitt\ Remix\).mp3
 		clear
-		timepass
+		sh imepass.sh
 		;;
 	12)
 		echo "\e[1;43mSure my Majesty!\e[0m"| pv -qL 10
@@ -115,14 +116,14 @@ read choice1
 		cd media; mpv * 
 		cd
 		clear
-	    timepass
+	    sh timepass.sh
 		;;
 	13)
 		echo "\e[1;43mSure my Majesty!\e[0m"| pv -qL 10
 		sleep 2s
 		sl
 		clear
-	    timepass
+	    sh timepass.sh
 		;;
 	14)
 		echo "\e[1;43mSure my Majesty!\e[0m"| pv -qL 10
@@ -133,7 +134,7 @@ read choice1
 		read c
 		yes $c
 		clear
-		timepass
+		sh timepass.sh
 		;;
 	15)
 		echo "\e[1;43mSure my Majesty!\e[0m"| pv -qL 10
@@ -143,7 +144,7 @@ read choice1
 		clear
 		rev
 		clear
-		timepass
+		sh timepass.sh
 		;;
 	16)
 		echo "\e[1;43mSure my Majesty!\e[0m"| pv -qL 10
@@ -152,7 +153,7 @@ read choice1
 		sleep 1s
 		factor
 		clear
-		timepass
+		sh timepass.sh
 		;;
 	17)
 		echo "\e[1;43mSure my Majesty!\e[0m"| pv -qL 10
@@ -161,7 +162,7 @@ read choice1
 		sleep 10s
 		telnet mapscii.me
 		clear
-		timepass
+		sh timepass.sh
 		;;
 	18)
 		echo "\e[1;43mSure my Majesty!\e[0m"| pv -qL 10
@@ -169,7 +170,7 @@ read choice1
 		echo "\e[1;43mctrl+c to stop\e[0m"| pv -qL 10
 		while true; do echo "$(date '+%D %T' | toilet -f term -F border --gay)"; sleep 1; done
 		clear
-		timepass.sh
+		sh timepass.sh
 		;;
 	19)
 		echo "\e[1;43mSure my Majesty!\e[0m"| pv -qL 10
@@ -179,13 +180,15 @@ read choice1
 		echo "Exiting..."
 		sleep 2s
 		clear
-		timepass
+		sh timepass.sh 
 		;;
 	20)
 		echo "\e[1;43mSure my Majesty!\e[0m"| pv -qL 10
 		sleep 2s
-		maiz
-		timepass
+		cd executebles
+		./maiz
+		cd ..
+		sh timepass.sh 
 		;;
 	21)
 		cd hacking_zone
@@ -194,4 +197,9 @@ read choice1
 	99)
 	    echo "Thankyou..."
 	    ;;
+	*)
+		echo "It seems you entered wrong input please try again..."
+		sleep 3s
+		clear
+		sh timepass.sh 
   esac
