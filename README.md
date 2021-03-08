@@ -23,7 +23,7 @@
 <a href="#"><img title="UNMAINTENED" src="https://img.shields.io/badge/UNMAINTENED-YES-blue.svg"></a>
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/hakxcore/Timepass/main/media/timepass.png" width="1000" height="800"/>
+  <img src="https://raw.githubusercontent.com/hakxcore/Timepass/main/media/timepassg.png" width="1000" height="800"/>
 </p>
 <br>
 <br>
