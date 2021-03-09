@@ -136,8 +136,8 @@ fi
 			./hacking_zone.sh
 			;;
 	6)
-			#echo "Enter text to convert into Binary: \c"
-			#read enttext;
+			echo "Enter text to convert into Binary: \c"
+			read enttext;
 			cd && cd Timepass/Binary-cnvrtr && python3 binary-convrtr.py
 			sleep 5s
 			cd
