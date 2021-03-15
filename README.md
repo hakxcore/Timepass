@@ -1,3 +1,4 @@
+<!-- Thanks for checking my sourcew code :) -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/hakxcore/Timepass/main/media/timepass.png" width="350" height="200"/>
 </p>
