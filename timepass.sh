@@ -106,14 +106,14 @@ read choice1
 		sleep 2s
 		echo "\e[1;43mNote: You should open another tab(ctrl+shft+t) of terminal and run 'cava' for better experience. \e[0m"| pv -qL 10
 		sleep 12s
-		cd && cd Music && mpv In\ The\ End\ -\ 1\ Hour\ Loop\ -\ By\ Linkin\ Park\ \(Mellen\ Gi\ \&\ Tommee\ Profitt\ Remix\).mp3
+		cd && cd Music && mpv *
 		clear
-		sh imepass.sh
+		sh timepass.sh
 		;;
 	12)
 		echo "\e[1;43mSure my Majesty!\e[0m"| pv -qL 10
 		sleep 2s
-		cd media; mpv * 
+		cd && cd Videos && mpv * 
 		cd
 		clear
 	    sh timepass.sh
@@ -191,7 +191,7 @@ read choice1
 		sh timepass.sh 
 		;;
 	21)
-		cd hacking_zone
+		cd hacking-zone
 		sh hacking_zone.sh
 		;;
 	99)
