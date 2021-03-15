@@ -28,5 +28,5 @@
 Automate your some sort of functions in Debian OS.
 
 Tool is in its process of testing  :).....
-if you are ware of bash then trust me you can easily install it
+if you are aware of bash then trust me you can easily install it
 
