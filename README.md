@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/hakxcore/Timepass/main/media/Timepass.png" width="350" height="200"/>
+  <img src="https://raw.githubusercontent.com/hakxcore/Timepass/main/media/timepass.png" width="350" height="200"/>
 </p>
 <p align="center">
 <a href="#"><img title="Timepass" src="https://img.shields.io/badge/-%20Timepass-green%3FcolorA%3D%2523ff0000%26colorB%3D%2523017e40"></a>
