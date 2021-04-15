@@ -106,14 +106,14 @@ read choice1
 		sleep 2s
 		echo "\e[1;43mNote: You should open another tab(ctrl+shft+t) of terminal and run 'cava' for better experience. \e[0m"| pv -qL 10
 		sleep 12s
-		cd && cd Music && mpv *
+		cd && cd Music && xdg-open *
 		clear
 		sh timepass.sh
 		;;
 	12)
 		echo "\e[1;43mSure my Majesty!\e[0m"| pv -qL 10
 		sleep 2s
-		cd && cd Videos && mpv * 
+		cd && cd Videos && xdg-open * 
 		cd
 		clear
 	    sh timepass.sh
