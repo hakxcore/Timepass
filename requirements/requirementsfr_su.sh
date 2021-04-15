@@ -10,7 +10,6 @@ sudo apt install oneko
 sudo apt install cowthink
 sudo apt install telnet
 sudo apt install xeyes
-sudo apt install mpv
 sudo apt install cava
 sudo apt install pv
 sudo apt install yes
