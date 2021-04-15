@@ -2,7 +2,7 @@
 ##Created by Mukesh Kumar
 ##All the credits should be given to Mr.Mukesh Kumar.
 ##He is Hacker Pentester Bug Hunter and Especially An IT Engineer
-##This code is written only for fun purposes.
+##This code is written for automation.
 python3 banner.py
 sleep 1;
 echo ""
