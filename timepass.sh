@@ -3,7 +3,7 @@
 ##All the credits should be given to Mr.Mukesh Kumar.
 ##He is Hacker Pentester Bug Hunter and Especially An IT Engineer
 ##This code is written for automation.
-python3 banner.py
+cd Banner && python3 banner.py
 sleep 1;
 echo ""
 echo "     \e[1;2;43m[CHOOSE ANY NUMBER FROM BELOW]\e[0m"

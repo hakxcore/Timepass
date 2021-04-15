@@ -8,7 +8,7 @@ echo "[3] Create a Malicious word doc"
 echo "[4] Download an Image"
 echo "[5] Download a Video"
 echo "[6] Encryption"
-echo "[]7 Create a virus"
+echo "[7] Create a virus"
 echo "What you wanna Do: \c"
 read choice2
 case $choice2 in
@@ -157,3 +157,4 @@ fi
 			./hacking_zone.sh
 			;;
 		esac
+-

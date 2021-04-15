@@ -19,4 +19,3 @@ sudo apt install ls
 sudo apt install youtube-dl
 sudo apt install python3
 sudo apt install curl
-
